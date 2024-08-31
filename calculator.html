@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Efficiency Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Energy Efficiency Calculator</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="calculator.html">Energy Efficiency Calculator</a>
+    <a href="database.html">Materials Database</a>
+    <a href="projects.html">Project Showcase</a>
+    <a href="about.html">About Us</a>
+</nav>
+
+<div class="container">
+    <div class="calculator">
+        <h2>Calculate Your Building's Energy Efficiency</h2>
+        <form id="efficiencyForm">
+            <label for="energyInput">Annual Energy Consumption (kWh):</label>
+            <input type="number" id="energyInput" required>
+
+            <label for="areaInput">Total Building Area (square meters):</label>
+            <input type="number" id="areaInput" required>
+
+            <button type="submit">Calculate Efficiency</button>
+        </form>
+
+        <div class="result" id="result"></div>
+    </div>
+</div>
+
+<footer>
+    <p>Green Building Advisor &copy; 2024. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
